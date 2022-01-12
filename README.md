@@ -33,9 +33,9 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 
 | Method    | Command                                                                                           |
 |:----------|:--------------------------------------------------------------------------------------------------|
-| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
-| **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
-| **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+| **curl**  | `sh -c "$(curl -fsSL https://github.com/wuguanggui/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+| **wget**  | `sh -c "$(wget -O- https://github.com/wuguanggui/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
+| **fetch** | `sh -c "$(fetch -o - https://github.com/wuguanggui/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
 
 _Note that previous configuration in `.zshrc` will be placed in `.pre-oh-my-zsh`. After installation you can move configuration you want to preserve into `.zshrc`._
 
@@ -46,7 +46,7 @@ that by downloading the install script first, looking through it so everything l
 then running it:
 
 ```sh
-wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+wget https://github.com/wuguanggui/ohmyzsh/ohmyzsh/master/tools/install.sh
 sh install.sh
 ```
 
